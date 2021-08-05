@@ -1,0 +1,201 @@
+// banner
+.carousel{
+    .carousel-indicators{
+        z-index: 1;
+    }
+    .carousel-inner{
+        .info{
+            font-size: 2em;
+            letter-spacing: .1em;
+        }
+
+        .bg{
+            margin-bottom: 15em;
+            position: relative;
+            .suject{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 10%;
+
+                .title{
+                    font-size: 2.8em;
+                    margin-bottom: .3em;
+                    
+                    p{
+                        letter-spacing: .5em;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:1000px) {
+        .carousel-inner{
+            .info{
+                font-size: 1.5em;
+                letter-spacing: .1em;
+            }
+
+            .bg{
+                margin-bottom: 10em;
+                .suject{
+    
+                    .title{
+                        font-size: 2.5em;
+                        margin-bottom: .5em;
+                        
+                        p{
+                            letter-spacing: .5em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:700px) {
+        .carousel-inner{
+            .info{
+                font-size: 1.2em;
+                letter-spacing: .1em;
+            }
+
+            .bg{
+                margin-bottom: 7em;
+                .suject{
+    
+                    .title{
+                        font-size: 2.2em;
+                        margin-bottom: .5em;
+                        
+                        p{
+                            letter-spacing: .5em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:600px) {
+        .carousel-inner{
+            .info{
+                font-size: 1.1em;
+                letter-spacing: .1em;
+            }
+            
+            .bg{
+                margin-bottom: 2em;
+                .suject{
+                    
+                    .title{
+                        font-size: 1.8em;
+                        margin-bottom: .6em;
+                        
+                        p{
+                            letter-spacing: .5em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    @media screen and (max-width:470px) {
+        .carousel-inner{
+            .info{
+                font-size: .7em;
+                letter-spacing: .1em;
+            }
+
+            .bg{
+                margin-bottom: 2em;
+                .suject{
+                    
+                    .title{
+                        font-size: 1em;
+                        margin-bottom: .6em;
+                        margin-top: .8em;
+                        
+                        p{
+                            letter-spacing: .5em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// cultrue
+.cultrue{
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+
+        .item{
+            width: 50%;
+            .table{
+                margin-left: 45%;
+                margin-top: 18%;
+
+                img{
+                    width: 100%;
+                }
+                table{
+                    width: 0%;
+                    color: #5e5e5e;
+
+                    tr{
+                        font-size: 1.3em;
+                        .title{
+                            font-size: 2em;
+                        }
+
+                        .info{
+                            font-size: 1.5em;
+                            letter-spacing: .1em;
+                            padding-bottom: 1em;
+                        }   
+                    }
+                }
+            }
+        }
+    }
+}
+
+// elegance
+.elegance{
+    padding: 5em 0em 8em;
+    border-bottom: 1px solid #eeeeee;
+    .container{
+        .title{
+            margin-bottom: 3.5em;
+            text-align: center;
+            h6{
+                font-size: 2em;
+                margin-bottom: 1em;
+            }
+
+            span{
+                color: #b2b2b2;
+                font-size: 1.5em;
+            }
+        }
+    }
+
+    @media screen and (max-width:500px) {
+        &{
+            .container{
+                .title{
+                    h6{
+                        font-size: 1.5em;
+                    }
+                }
+            }
+        }
+    }
+}
